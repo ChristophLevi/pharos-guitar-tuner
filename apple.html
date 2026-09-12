@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#f5f5f7"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="apple-mobile-web-app-title" content="Pharos"><title>Pharos</title><link rel="manifest" href="./manifest.webmanifest"><link rel="stylesheet" href="./apple.css"><link rel="stylesheet" href="./memory.css">
+</head>
+<body><main>
+<header><div class="wordmark"><span>Pharos</span> Tone</div><div class="state" id="connection">本地聆听</div></header>
+<div class="mode"><button class="selected" data-mode="standard">标准</button><button data-mode="half">半音</button></div>
+<section class="hero"><div class="eyebrow" id="mode">标准调弦</div><div class="note" id="note">—</div><div class="message" id="reading">准备好，拨响一根弦</div><div class="meter"><div class="center"></div><div class="needle" id="needle"></div></div><div class="labels"><span>低</span><span>准</span><span>高</span></div></section>
+<div class="strings" id="strings"></div><a class="memory" href="./fretboard.html">指板助记　›</a><button class="listen" id="start">开始调音</button><div class="permission" id="status">麦克风只在你点击后开启</div>
+<div class="celebration" id="celebration" aria-hidden="true">
+<div class="celebration-burst burst-a"></div><div class="celebration-burst burst-b"></div>
+<div class="celebration-card"><div class="celebration-check">✓</div><div class="celebration-kicker">PHAROS</div><strong>已调准</strong><small id="celebration-detail">—弦 · —</small></div>
+</div>
+</main><script type="module" src="./apple.js?v=17"></script></body></html>

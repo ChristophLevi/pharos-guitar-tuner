@@ -1,0 +1,1 @@
+.fretboard .cell:not(.root){background:#303238;padding:3px 4px;border-radius:4px;min-width:14px}.fretboard .cell.root{box-shadow:0 0 0 2px #8064a633}.fretboard .fret-labels{border-top:1px solid #52545d;padding-top:2px}

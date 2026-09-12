@@ -1,0 +1,1 @@
+.fret-labels .marker-label{position:relative;color:#d4bbed;font-weight:600}.fret-labels .marker-label:after{content:"";position:absolute;left:50%;top:15px;transform:translateX(-50%);width:4px;height:4px;border-radius:50%;background:#d4bbed}.fret-labels .marker-label:nth-child(14):after{width:5px;height:5px;box-shadow:0 7px #d4bbed}
